@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&family=IBM+Plex+Serif:wght@300&family=Kalam:wght@300&family=Satisfy&family=Ysabeau+Infant:ital,wght@1,300&display=swap');
+
+body{
+    padding-top:10rem ;
+    background-color: black;
+}
+#GHRepoCard{
+    text-align: center;
+    height: 250px;
+    width: 350px;
+    word-wrap: break-word;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 2px solid blueviolet;
+    font-family: 'Cinzel', serif;
+    transition: transform 0.3s;
+}
+#GHRepoCard:hover{
+    transform: scale(1.05);
+}
+#userRepos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: flex-start;
+    width: 95%;
+    align-items: center;
+}
+#search{
+    padding-left: 15px;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 15px;
+    width: 30rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 3rem;
+}
+h4{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center;
+}
+#searchUsername, #searchUserRepo{
+    font-size: 1.2rem;
+    background-color: white;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+    margin: 5px;
+}
+#formDiv{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#articles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    justify-content:space-around;
+}
+.article-body{
+    color: white;
+}
+
+.article-body a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.article-wrapper{
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    border: 1px white solid;
+    margin: 10px 5px;
+    height: 50rem;
+    align-self: center;
+
+}
+#userImg{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+#imgContainer{
+    margin: auto;
+    text-align: center;
+}
+.article-wrapper p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+.fLinks{
+   padding: 5px;
+    border: 1px solid blueviolet;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+#repoLink{
+    padding: 5px;
+    margin-top: 3rem;
+    margin: auto;
+    color: rgb(40, 180, 227);
+    
+
+}
+#fDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+#repoLinkDiv{
+    display: flex;
+    align-items:center ;
+
+
+}
+
+
