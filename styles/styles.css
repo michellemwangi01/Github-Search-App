@@ -140,5 +140,13 @@ h4{
 
 
 }
+#copyrightContainer{
+    background-color: rgba(white, white, purple, 0.5);
+    width: 100%;
+    align-self: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
 
 

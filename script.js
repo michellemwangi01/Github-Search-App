@@ -1,9 +1,10 @@
+const onlineLink = "https://mygithub-search-app.netlify.app"
+const accessToken = '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'
+
 document.addEventListener('DOMContentLoaded',()=>{
     
     let searchUserButton = document.getElementById('searchUsername')
     let searchUserRepoButton = document.getElementById('searchUserRepo')
-
-    
 
     searchUserButton.addEventListener('click', (e)=>{
         e.preventDefault()
@@ -66,13 +67,14 @@ function fetchGHRepos(searchValue){
         method: 'GET', 
         headers: {
             'content-Type': 'application/json',
-            'Accept': 'application/vnd.github.v3+json'
+            'Accept': 'application/vnd.github.v3+json', 
+            'Authorization': `Bearer ${accessToken}`
         }
     })
     .then(res => res.json())
     .then(repos => {
         if(repos.length > 0){
-             for (let repo of repos){
+            for (let repo of repos){
             console.log(repo);
             createRepoCard(repo)
         }
@@ -93,11 +95,15 @@ function fetchGHUsers(searchValue){
         method: 'GET', 
         headers: {
             'content-Type': 'application/json',
-            'Accept': 'application/vnd.github.v3+json'
+            'Accept': 'application/vnd.github.v3+json',
+            'Authorization': `Bearer ${accessToken}`
         }
     })
     .then(res => res.json())
     .then(user => {
+        // for (let user of users){
+        //     createUserCard(user)
+        // }
         console.log(user);
         if (user.message == 'Not Found'){
             alert (`Sorry! User ${searchValue} does not exist`)
