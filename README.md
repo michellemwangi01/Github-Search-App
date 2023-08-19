@@ -1,4 +1,10 @@
 # Github-Search-App
+
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
 A web application built using JavaScript that allows users to search for repositories and users on GitHub. 
 It leverages the GitHub API to fetch and display search results in real-time.
 ![image](https://github.com/michellemwangi01/Github-Search-App/assets/84324369/0284bf06-d345-464d-abfd-6d872f6ff0ac)
